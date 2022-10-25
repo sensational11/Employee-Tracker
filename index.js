@@ -2,10 +2,6 @@
 const mysql2 = require("mysql2");
 const inquirer = require("inquirer");
 const consoletable = require ("console.table");
-const {default: Choices} = require("inquirer/lib/objects/choices");
-const {Action} = require("rxjs/internal/scheduler/Action");
-const {allowedNodeEnvironmentFlags, exit} = require("process");
-const {type} = require("os");
 
 
 // establshing connection to mysql database
