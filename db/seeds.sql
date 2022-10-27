@@ -13,7 +13,7 @@ VALUES
 
 -- Addimg title salary department id values into role section
 INSERT INTO ROLES (title, salary, department_id)
-values
+VALUES
 ("Staff Research Engineer", 117000, 1),
 ("Call Center Representative", 52000, 2 ),
 ("Software Engineer", 92310, 3 ),
@@ -22,15 +22,16 @@ values
 ("Social Media Specialist", 50000, 6),
 ("Attorney", 100000, 7);
 
+-- Adding first_name, last_name, roles_id, and manager_id into employee section
 INSERT INTO Employee (first_name, last_name, roles_id, manager_id )
 VALUES
-("Bob", "Burger", 1, 404, 222),
-("Linda", "Burger", 2, 470, 333) ,
-("Teddie", "Guy", 3, 678, 444),
-("Jiraya", "Sage", 4, 770, 555),
-("Yusuke", "Spirit", 5, 619, 667),
-("Nick", "Fury", 6, 213, 777),
-("Virgil", "Shock", 7, 917, 888 );
+("Bob", "Burger", 1, 404),
+("Linda", "Burger", 2, 470) ,
+("Teddie", "Guy", 3, 678),
+("Jiraya", "Sage", 4, 770),
+("Yusuke", "Spirit", 5, 619),
+("Nick", "Fury", 6, 213),
+("Virgil", "Shock", 7, 917);
 
 SELECT * FROM department;
 
