@@ -11,12 +11,6 @@ const db = mysql2.createConnection({
   database: "employee_db",
 });
 
-// db.query("SELECT * FROM department", function (err, results) {
-//   console.log(results);
-//   console.table(results);
-//   // console.log(table);
-// });
-
 function promptQuestions() {
   inquirer
     .prompt({
@@ -87,7 +81,6 @@ const addDepartment = () => {
         promptQuestions();
       });
     });
-    
 };
 
 promptQuestions();
