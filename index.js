@@ -11,6 +11,7 @@ const db = mysql2.createConnection({
   database: "employee_db",
 });
 
+//Prompt for user input
 function promptQuestions() {
   inquirer
     .prompt({
@@ -82,5 +83,5 @@ const addDepartment = () => {
       });
     });
 };
-
+// Function to call to initialize app
 promptQuestions();
